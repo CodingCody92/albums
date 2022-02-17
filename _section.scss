@@ -1,0 +1,16 @@
+.albums {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.albums img {
+    width: 300px;
+}
+
+.albums p {
+    color: azure;
+    font-size: 30px;
+}

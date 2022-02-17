@@ -1,0 +1,32 @@
+@import './variables';
+@import './header';
+@import './section';
+
+body {
+    background-color: rgb(14, 13, 13);
+}
+
+
+
+
+article {
+    margin: 0 100px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+article #italic, #note {
+    font-size: $articleSpanSize;
+    font-style: $articleSpanStyle;
+}
+
+
+article p {
+    color: white;
+}
+
+@media (max-width: 775px) {
+    article {
+        margin: 0 20px;
+    }
+}
